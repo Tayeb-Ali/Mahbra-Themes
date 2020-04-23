@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------
+Search page css
+--------------------------------------------------------------*/
+
+.search-results .entry-title, .archive .entry-title, .single .entry-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.entry-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  a:hover {
+    color: $primary_color;
+  }
+}
+
+.entry-meta span {
+  a {
+    color: #9f9f9f;
+    font-size: 13px;
+  }
+  color: #9f9f9f;
+  font-size: 13px;
+}
+
+.cat-links {
+  color: #9f9f9f;
+  font-size: 13px;
+}
+
+.entry-meta {
+  > span {
+    margin-right: 5px;
+    padding-right: 5px;
+  }
+  span a:hover {
+    color: $primary_color;
+  }
+}
+
+.archive .post-readmore a {
+  position: relative;
+  &::after {
+    content: "\f101";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 14px;
+    opacity: 0;
+    position: relative;
+    right: -10px;
+    visibility: visible;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+}
+
+.post-readmore a:hover {
+  &:after {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+  color: $primary_color;
+}
+
+.single-post-image {
+  margin: 0 0 20px;
+}

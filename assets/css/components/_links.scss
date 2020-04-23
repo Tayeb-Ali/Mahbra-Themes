@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------
+Links
+--------------------------------------------------------------*/
+
+a {
+  color: $primary_color;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  &:visited {}
+  &:hover, &:focus, &:active {
+    color: $primary_color;
+  }
+}

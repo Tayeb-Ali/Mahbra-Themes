@@ -1,0 +1,57 @@
+/*--------------------------------------------------------------
+Error 404 css
+--------------------------------------------------------------*/
+#primary404{
+  width:73%;
+  float:left;
+  padding:0 15px;
+  @media(max-width:768px){
+    width:100%;
+    float:none;
+  }
+}
+
+.error-404.not-found {
+  border: 1px solid #e1e1e1;
+  margin: 0 auto 15px;
+  max-width: 700px;
+}
+
+.error404 .page-title {
+  background: $primary_color none repeat scroll 0 0;
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.error-num {
+  font-size: 114px;
+  font-weight: 700;
+  text-align: center;
+  > span {
+    font-size: 34px;
+    text-transform: uppercase;
+  }
+}
+
+.error404 .page-content {
+  font-size: 14px;
+  text-align: center;
+}
+
+.error404{
+  .search-form{
+    margin:0 15px;
+    padding:0 100px 30px 0;
+    position: relative;
+    .search-submit{
+      position:absolute;
+      top:0;
+      right:0;
+      height:36px;
+      width:100px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+# Social Links CSS
+--------------------------------------------------------------*/
+
+.top-social-wrapper {
+	float: right;
+	.social-link {
+		display: inline-block;
+		padding: 0 6px;
+		background: #fff;
+		margin-left: 2px;
+
+		.fa-facebook {
+			color: #3350ae;
+		}
+		.fa-twitter {
+			color: #1eaaff;
+		}
+		.fa-linkedin {
+			color: #0084d7;
+		}
+		.fa-youtube {
+			color: #c70504;
+		}
+		.fa-instagram {
+			color: #ff7900;
+		}
+		.fa-pinterest, .fa-google-plus {
+			color: #e02828;
+		}
+		.fa-vimeo {
+			color: #15DEFF;
+		}
+	}
+}

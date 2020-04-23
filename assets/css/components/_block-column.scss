@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+Eggnews Block Column
+--------------------------------------------------------------*/
+
+.home-primary-wrapper {
+  .eggnews_block_column {
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    width: 47%;
+    margin-left: 3%;
+  }
+  .eggnews_block_column-wrap {
+    margin-left: -3%;
+  }
+}
+
+.home-secondary-wrapper .eggnews_block_column {
+  width: 100%;
+  margin-left: 0;
+}
+
+.eggnews_block_column .single-post-wrapper.primary-post {
+  margin-bottom: 25px;
+}
+
+.home-primary-wrapper .eggnews_782x90_banner {
+  margin: 20px 0 0;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+COMMON CSS
+--------------------------------------------------------------*/
+
+body {
+  font-weight: 400;
+  overflow: hidden;
+  position: relative;
+  font-family: $primary_font_family;
+  line-height: 1.8;
+}
+
+.boxed_layout #page {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 1200px;
+  background: #ffffff;
+}
+
+body.fullwidth-layout #page {
+  background: #fff none repeat scroll 0 0;
+}
+
+.teg-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}

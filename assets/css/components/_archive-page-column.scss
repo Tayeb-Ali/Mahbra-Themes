@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------
+Archive page  column css
+--------------------------------------------------------------*/
+
+.archive-columns {
+  .archive-content-wrapper {
+    article {
+      border: medium none;
+      display: inline-block;
+      margin: 0 -4px 20px 3%;
+      text-align: left;
+      vertical-align: top;
+      width: 47%;
+    }
+    margin-left: -3%;
+  }
+  .post-cat-list {
+    margin-bottom: 0;
+  }
+  .entry-title {
+    margin: 0;
+    a {
+      font-size: 18px;
+      color: #333;
+      &:hover {
+        color: $primary_color;
+      }
+    }
+  }
+  .entry-content {
+    margin-top: 10px;
+  }
+  .entry-header {
+    margin-top: 15px;
+    text-align: left;
+  }
+  .archive-desc-wrapper {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px 20px 20px;
+    position: relative;
+    &:before {
+      position: absolute;
+      left: 20px;
+      top: -10px;
+      border-bottom: 10px solid #fff;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      content: "";
+    }
+  }
+  .entry-footer {
+    margin: -10px 0 0;
+  }
+}

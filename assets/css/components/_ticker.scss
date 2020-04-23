@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------
+TICKER CSS
+--------------------------------------------------------------*/
+
+.eggnews-ticker-wrapper {
+
+	margin: 0;
+}
+
+#teg-newsTicker {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+
+.ticker-caption {
+	background: $ticker_caption;
+	color: #fff;
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 5px 0;
+	text-align: center;
+	width: 15%;
+	position: relative;
+
+}
+
+.ticker-content-wrapper {
+	border: none;
+	height: 35px;
+	float: left;
+	overflow: hidden;
+	padding: 4px 0px 0 30px;
+	width: 85%;
+	position: relative;
+	background: lighten($top_header_background, 0.5);
+
+	z-index: 0;
+	.news-post a {
+		color: #fff;
+		font-weight: bold	;
+		&:hover {
+
+			color: $primary_color;
+		}
+	}
+}

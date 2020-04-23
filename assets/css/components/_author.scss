@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------
+Author css
+--------------------------------------------------------------*/
+
+.eggnews-author-wrapper {
+  border: 1px solid #e1e1e1;
+  padding: 15px;
+  margin-bottom: 30px;
+  .author-avatar {
+    float: left;
+    width: 17%;
+  }
+  .author-desc-wrapper {
+    float: right;
+    width: 80%;
+    .author-title {
+      color: #333;
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+    }
+  }
+}

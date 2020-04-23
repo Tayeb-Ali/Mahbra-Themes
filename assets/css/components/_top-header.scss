@@ -1,0 +1,97 @@
+/*--------------------------------------------------------------
+TOP HEADER CSS
+--------------------------------------------------------------*/
+
+.eggnews-ticker-wrapper ~ .top-header-section {
+	border-top: 2px solid $primary_color;
+
+}
+
+.top-header-section {
+	background: lighten($top_header_background, 0.3);
+	font-size: 12px;
+	padding: 10px 0;
+	.date-section {
+		float: left;
+		margin-right: 15px;
+		color: $white_color;
+		&::before {
+			content: "\f017";
+			display: inline-block;
+			font-family: FontAwesome;
+			margin-right: 8px;
+		}
+	}
+}
+
+.top-menu ul, #footer-navigation ul {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+
+.top-menu ul li, #footer-navigation ul li {
+	border-left: 2px solid rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	line-height: 12px;
+	margin-right: 10px;
+	padding: 0 0 0 10px;
+}
+
+.top-menu ul li {
+	border-left: 2px solid $primary_color;
+}
+
+.top-menu ul li a, #footer-navigation ul li a {
+	color: $white_color;
+}
+
+.top-menu ul li a:hover, #footer-navigation ul li a:hover {
+	color: $primary_color;
+}
+
+#top-header-navigation {
+	float: left;
+}
+
+#footer-navigation ul li ul {
+	display: none;
+}
+
+/* For browsers that support 'object-fit' */
+@supports ( object-fit: cover ) {
+	.has-header-image .custom-header-media img,
+	.has-header-video .custom-header-media video,
+	.has-header-video .custom-header-media iframe,
+	.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+		height: 100%;
+		left: 0;
+		-o-object-fit: cover;
+		object-fit: cover;
+		top: 0;
+		-ms-transform: none;
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+		width: 100%;
+	}
+}
+.has-header-video .custom-header-media iframe {
+	position: fixed;
+	height: auto;
+	left: 50%;
+	max-width: 1000%;
+	min-height: 100%;
+	min-width: 100%;
+	min-width: 100vw; /* vw prevents 1px gap on left that 100% has */
+	width: auto;
+	top: 50%;
+	padding-bottom: 1px; /* Prevent header from extending beyond the footer */
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+#wp-custom-header img{
+	width:100%;
+}

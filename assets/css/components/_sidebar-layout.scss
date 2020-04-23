@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------
+Sidebar layout css
+--------------------------------------------------------------*/
+
+#primary, .home.blog #primary {
+  float: left;
+  width: 70%;
+}
+
+#secondary, .home.blog #secondary {
+  float: right;
+  width: 27%;
+}
+
+.page-template-magazine-template #primary {
+  float: none;
+  width: 100%;
+}
+
+.left-sidebar {
+  #primary {
+    float: right;
+  }
+  #secondary {
+    float: left;
+  }
+}
+
+.no-sidebar {
+  #primary {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #secondary {
+    display: none;
+  }
+}
+
+.no-sidebar-center #primary {
+  float: none;
+  margin: 0 auto;
+}
+
+.home.blog #content {
+  .teg-container {
+    margin: 60px auto;
+  }
+  #primary article:first-child {
+    margin-top: 0;
+  }
+}

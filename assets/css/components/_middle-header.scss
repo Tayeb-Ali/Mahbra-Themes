@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------
+MIDDLE HEADER CSS
+--------------------------------------------------------------*/
+
+.logo-ads-wrapper {
+  padding: 20px 0;
+}
+
+.custom-logo-link {
+  display: block;
+  margin: 24px 0;
+}
+
+.site-branding {
+  float: left;
+}
+
+.site-title-wrapper {
+  margin-top: 15px;
+}
+
+.site-logo {
+  margin: 30px 0;
+}
+
+.site-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.site-description {
+  margin: 0;
+}
+
+.header-ads-wrapper {
+  float: right;
+}
+
+.home .header-ads-wrapper .widget.eggnews_ads_banner {
+  margin: 0;
+  padding: 0;
+}
+
+#masthead .header-ads-wrapper .widget {
+  &.eggnews_ads_banner {
+    margin: 0;
+    padding: 0;
+  }
+  &.eggnews_782x90_banner {
+    margin: 0;
+  }
+	margin:0;
+	padding:0;
+}
+
+.home .widget.eggnews_ads_banner {
+  margin-top: 10px;
+  text-align: center;
+}

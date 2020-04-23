@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+scroll to top css
+--------------------------------------------------------------*/
+
+#teg-scrollup {
+  background-color: $primary_color;
+  bottom: 20px;
+  display: none;
+  height: 40px;
+  line-height: 35px;
+  position: fixed;
+  right: 20px;
+  width: 40px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #ffffff;
+  border-radius: 100%;
+
+}
+
+.home .post-content-wrapper .post-content {
+  max-height: 80px;
+  overflow: hidden;
+}

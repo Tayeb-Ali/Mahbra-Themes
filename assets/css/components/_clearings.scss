@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+Clearings
+--------------------------------------------------------------*/
+
+.clearfix {
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
+}
+
+.row {
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
+}
+
+.entry-content {
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
+}
+
+.comment-content {
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
+}
+
+.site-header {
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
+}
+
+.site-content {
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
+}
+
+.site-footer {
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
+}
+
+.teg-container {
+  &:after, &:before {
+    content: '';
+    display: table;
+  }
+}
+
+.clearfix:after, .row:after, .entry-content:after, .comment-content:after, .site-header:after, .site-content:after, .site-footer:after, .teg-container:after, .clear {
+  clear: both;
+}

@@ -1,0 +1,104 @@
+/*--------------------------------------------------------------
+Archive page  css
+--------------------------------------------------------------*/
+
+.archive .page-header {
+  .page-title {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    padding: 0 30px;
+    text-transform: uppercase;
+  }
+  background: lighten($primary_color, 20%) none repeat scroll 0 0;
+  border-left: 4px solid $primary_color;
+  line-height: 24px;
+  margin-bottom: 30px;
+  padding: 0 20px 0 0;
+}
+
+.archive-classic .post-image {
+  text-align: center;
+}
+
+.archive .entry-header {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.archive-classic .post-cat-list, .archive-columns .post-cat-list {
+  margin-bottom: 10px;
+}
+
+.archive-classic .post-cat-list .cat-name, .archive-columns .post-cat-list .cat-name {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 10px 0 0;
+  text-transform: uppercase;
+}
+
+.archive-classic .entry-title {
+  margin-bottom: 20px;
+  a {
+    color: #333;
+    position: relative;
+    display: inline-block;
+    padding-bottom:10px;
+  }
+}
+
+.archive.archive-classic .entry-title a:after {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  width: 250px;
+  height: 4px;
+  background: #eee;
+  content: "";
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.archive-classic {
+  .entry-title a:hover {
+    color: $primary_color;
+  }
+  .entry-content {
+    text-align: justify;
+  }
+}
+
+.archive.archive-classic .entry-content {
+  text-align: center;
+}
+
+.archive-classic .entry-content p {
+  margin-bottom: 20px;
+}
+
+.archive.archive-classic .entry-content p {
+  margin-bottom: 0;
+}
+
+.archive-classic {
+  .entry-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .entry-meta > span {
+    margin-right: 15px;
+  }
+}
+
+.search .entry-title {
+  margin: 0 0 10px;
+}
+
+.taxonomy-description {
+  float: left;
+  margin-top: 10px;
+}
